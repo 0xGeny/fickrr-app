@@ -1,0 +1,611 @@
+html, body 
+{
+	  overflow: hidden;
+}
+html,
+body {
+  height: 100%;
+ 
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+
+/* Avoid the header overlapping */
+
+body { 
+	padding-top: 50px; 
+}
+@media only screen and (max-width: 600px) {
+
+body { 
+	   padding-top: 140px;
+	}
+
+}
+@media screen and (max-width: 768px) 
+{
+    
+	.deskonly
+	{
+	margin-bottom:10px;
+	}
+	.move-strong,.move-select
+	{
+	margin-bottom:10px;
+	}
+	
+}
+@media screen and (min-width: 768px) 
+{
+.deskonly
+	{
+	text-align:right !important;
+	float:right !important;
+	margin-top:5px;
+	margin-bottom:5px;
+	}
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  background-color: #edf1f2;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -309px;
+  padding: 0 0 309px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 309px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+#footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+
+
+.item-panel{
+	height: 387px;
+}
+
+
+.item-header a{
+  color: #363f44;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.item-header a:hover,
+.item-header a:focus {
+  color: #141719;
+  text-decoration: none;
+}
+
+
+.text-base {
+  color: #58666e;
+}
+
+
+a.text-info {
+  color: #19a9d5;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.text-info:hover,
+a.text-info:focus {
+  color: #1797be;
+  text-decoration: none;
+}
+
+
+.link-info a{
+  color: #19a9d5;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-info a:hover,
+.link-info a:focus {
+  color: #1797be;
+  text-decoration: none;
+}
+
+
+.link-base a{
+  color: #58666e;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-base a:hover,
+.link-base a:focus {
+  color: #58666e;
+  text-decoration: none;
+}
+
+
+
+
+
+/** Frontpage **/
+
+.frontpage-header{
+	width: 100%;
+    background-image: url(../img/backgrounds/search-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;    
+	position: relative;
+}
+
+.frontpage-header h1{
+	
+	text-shadow: 0px 0px 5px rgba(0, 0, 5, 0.7);
+
+	
+		
+}
+.frontpage-header h3{
+	
+	text-shadow: 0px 0px 5px rgba(0, 0, 5, 0.5);
+		
+}
+
+.white-transparant-bg{
+	background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+
+/** extra text properties **/
+
+
+
+.click-area-lg{
+	display: block;
+	position: relative;
+
+}
+
+.click-area-lg:after{
+    content:"";
+    padding: 200px;  
+    position: absolute;
+    left: -100px;
+    top: -100px;
+} 
+
+
+a.text-white:hover,
+a.text-white:focus {
+  color: #EEE;
+  text-decoration: none;
+  
+}
+
+
+a.text-black{
+	color: #363f44;
+}
+
+a.text-black:hover,
+a:focus {
+  color: #141719;
+  text-decoration: none;
+}
+
+
+.text-xl {
+  font-size: 24px;
+}
+
+.text-xxl {
+  font-size: 32px;
+}
+
+.text-xxxl {
+  font-size: 50px;
+}
+.text-right {
+  text-align: right;
+}
+
+
+.text-ellipsis{
+	text-overflow: ellipsis;	
+}
+
+
+/** Item listing **/
+
+.item-listing-title {
+	height: 85px;
+	
+}
+
+.item-listing-desc {
+	height: 80px;
+}
+
+.item-listing-extra {
+	height: 40px;
+}
+
+/** Extra buttons **/
+.btn-transparant-white {
+  color: #ffffff !important;
+  border: 1px solid #fff;
+}
+
+.btn-transparant-white:hover,
+.btn-transparant-white:focus,
+.btn-transparant-white:active,
+.btn-transparant-white.active,
+.open .dropdown-toggle.btn-transparant-white {
+  color: #2baadf !important;
+  border-color: #2baadf !important;
+}
+
+/** Item page **/
+.item-menu {
+	padding-top: 8px;
+	margin-bottom: -11px;
+	
+}
+
+
+
+
+.item-menu .active{
+	border-bottom: 5px solid #23b7e5;
+	font-weight: bold;
+	color: #363f44 !important;
+}
+
+.item-menu a {
+  color: #58666e;  
+}
+
+.item-menu a:hover,
+.item-menu a:focus {
+	text-decoration: none;
+	color: #141719 !important;
+	border-bottom: 5px solid #E5E9EC;
+}
+
+.item-menu .active:hover{
+	text-decoration: none;
+	border-bottom: 5px solid #0FAADC !important;
+}
+
+.item-menu .active{
+border-bottom: 5px solid #0FAADC;
+
+}
+
+.screenshot-box{
+	
+  line-height:200px;
+  text-align: center;
+
+	
+}
+
+.screenshot-thumb{
+   vertical-align: middle;
+ 
+   max-width: 100%;
+   max-height: 196px;
+   	
+}
+
+.extra-screenshot{
+	display: none;
+}
+
+#display-screenshots{
+	display: block;
+}
+#hide-screenshots{
+	
+}
+
+.item-description h3{
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.item-description a{
+  color: #19a9d5;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.item-description a:hover,
+.item-description a:focus {
+  color: #1797be;
+  text-decoration: none;
+}
+
+.item-description img{
+	max-width:100%;
+} 
+
+
+
+img.size-full{
+	width:100%;
+} 
+
+.blog-post img{
+	max-width:100%;
+}
+
+
+/** Social buttons **/
+
+.btn-facebook {
+  color: #ffffff !important;
+  background-color: #3a5898;
+  border-color: #3a5898;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active,
+.btn-facebook.active,
+.open .dropdown-toggle.btn-facebook {
+  color: #ffffff !important;
+  background-color: #35508b;
+  border-color: #35508b;
+}
+
+
+.btn-twitter {
+  color: #ffffff !important;
+  background-color: #2baadf;
+  border-color: #2baadf;
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active,
+.btn-twitter.active,
+.open .dropdown-toggle.btn-twitter {
+  color: #ffffff !important;
+  background-color: #28a0d2;
+  border-color: #28a0d2;
+}
+
+
+.btn-googleplus {
+  color: #ffffff !important;
+  background-color: #cc382e;
+  border-color: #cc382e;
+}
+
+.btn-googleplus:hover,
+.btn-googleplus:focus,
+.btn-googleplus:active,
+.btn-googleplus.active,
+.open .dropdown-toggle.btn-googleplus {
+  color: #ffffff !important;
+  background-color: #be342b;
+  border-color: #be342b;
+}
+
+
+.btn-pinterest {
+  color: #ffffff !important;
+  background-color: #ca1f28;
+  border-color: #ca1f28;
+}
+
+.btn-pinterest:hover,
+.btn-pinterest:focus,
+.btn-pinterest:active,
+.btn-pinterest.active,
+.open .dropdown-toggle.btn-pinterest {
+  color: #ffffff !important;
+  background-color: #bc1d25;
+  border-color: #bc1d25;
+}
+
+
+.btn-linkedin {
+  color: #ffffff !important;
+  background-color: #007ab5;
+  border-color: #007ab5;
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus,
+.btn-linkedin:active,
+.btn-linkedin.active,
+.open .dropdown-toggle.btn-linkedin {
+  color: #ffffff !important;
+  background-color: #0071a8;
+  border-color: #0071a8;
+}
+
+.btn-rss {
+  color: #ffffff !important;
+  background-color: #f26722;
+  border-color: #f26722;
+}
+
+.btn-rss:hover,
+.btn-rss:focus,
+.btn-rss:active,
+.btn-rss.active,
+.open .dropdown-toggle.btn-rss {
+  color: #ffffff !important;
+  background-color: #e26020;
+  border-color: #e26020;
+}
+
+/* extra margin properties */
+.m-l-xxxl {
+  margin-left: 70px;
+}
+.m-r-xxxl {
+  margin-right: 70px;
+}
+
+/* Height properties */
+.h-xs {
+  height: 90px;
+}
+
+.h-sm {
+  height: 150px;
+}
+
+.h {
+  height: 200px;
+}
+
+.h-md {
+  height: 240px;
+}
+
+.h-lg {
+  height: 280px;
+}
+
+.h-xl {
+  height: 320px;
+}
+
+.h-xxl {
+  height: 360px;
+}
+
+.p-l{
+	padding-left: 15px;
+}
+
+.p-l-md{
+	padding-left: 20px;
+}
+
+.p-l-lg{
+	padding-left: 30px;
+}
+
+.pos-rel{
+	position: relative;
+}
+
+.align-bottom{
+	position: absolute;
+	bottom: 0;
+}
+
+.text-shadow-sm{
+	text-shadow: 0px 1px 2px rgba(0, 0, 5, 0.3);
+}
+
+/* Bootstrap carousel - Controls only visible on mouseover */
+	
+.carousel .carousel-control { visibility: hidden; }
+.carousel:hover .carousel-control { visibility: visible; }
+
+.carousel-indicators li { visibility: hidden; }
+
+.carousel-caption {
+    bottom: 0;
+    left: 0;
+    right: auto;
+    top: auto;
+    margin-bottom: -30px;
+}
+
+/* Center bootstrap modals */
+
+.modal {
+  text-align: center;
+}
+
+.modal:before {
+  display: inline-block;
+  vertical-align: middle;
+  content: " ";
+  height: 100%;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* Fix header movement when modal opens */
+
+body.modal-open { 
+	overflow:inherit; 
+	padding-right:inherit !important; 
+}
+
+
+#editor {
+	overflow:scroll; 
+	max-height:300px
+}
+
+
+
+
+
+
+
+
+
+
+/* Print properties*/
+
+@media print {
+ 
+body {margin:0; padding:0; line-height: 1.4em; word-spacing:1px; letter-spacing:0.2px; font: 8px helvetica; color: #000;}
+ 
+h1{
+	font: 18px helvetica !important;
+} 
+ 
+#content
+{
+font-size: 8px;
+font-weight: 100 !important;
+color: #FF9900 !important;
+
+}
+
+    
+  a[href]:after {
+    content: none !important;
+  }
+ 
+ header,footer,aside,nav{
+	 display: none;
+ } 
+ 
+ .hidden-print{
+	 display: none;
+ }
+ 
+
+
+
+ 
+ 
+  
+}

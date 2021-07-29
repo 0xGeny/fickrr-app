@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+html,body
+{
+direction:rtl;
+text-align:right;
+}
+.input-group-lg>.input-group-append>.btn,.input-group-overlay .prepended-form-control:not(.rounded-left-0)
+{
+border-radius:0;
+}
+#product_item,#mc-embedded-subscribe,#mce-EMAIL
+{
+border-radius:0 !important;
+}
+.cz-range-slider
+{
+direction:ltr !important;
+text-align:right;
+}

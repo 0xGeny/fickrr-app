@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+html,body
+{
+direction:rtl;
+text-align:right;
+}
+nav {direction: rtl !important;}
+.slick-slider
+{
+direction:ltr;
+text-align:left;
+}
+.searc-wrap .search-wrap__btn
+{
+left:0;
+}
+.author-author__info
+{
+float:left;
+}
+.author-area
+{
+float:left;
+}
+span.lnr
+{
+padding-left:5px;
+}
+.mainmenu__search
+{
+float:left;
+}
+.searc-wrap input
+{
+padding:0 35px;
+}
+.mini-footer .text-right
+{
+text-align:left !important;
+}
+.mini-footer .text-left
+{
+text-align:right !important;
+}
+@media (min-width: 768px)
+{
+.tip .currrency 
+{
+text-align:left;
+}
+.tip .titleitem,.tip .authorr 
+{
+text-align:right;
+}
+.tip .text-left
+{
+text-align:right !important;
+}
+}
+.radius-right,.radius-left
+{
+border-radius:4px !important;
+-webkit-border-radius:4px !important;
+}
+.go_top
+{
+right:inherit !important;
+left:20px;
+}
+

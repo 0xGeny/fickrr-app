@@ -1,0 +1,20 @@
+ul#example {
+	list-style: none;
+	padding: 0;
+	display: block;
+	text-align: center;
+}
+ul#example li {
+	display: inline-block;
+}
+ul#example li span {
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+ul#example li div {
+	color: #fff;
+	font-size: 15px;
+	padding-bottom:5px;
+}

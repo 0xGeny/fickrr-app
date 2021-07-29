@@ -1,0 +1,2 @@
+<meta name="Description" content="<?php echo e($allsettings->site_desc); ?>">
+<meta name="Keywords" content="<?php echo e($allsettings->site_keywords); ?>"><?php /**PATH D:\xampp\htdocs\fickrr\resources\views/meta.blade.php ENDPATH**/ ?>
