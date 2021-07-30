@@ -1,0 +1,48 @@
+{
+    "name": "andrey-helldar/laravel-app",
+    "description": "Provides backwards compatibility for app:name command in the latest Laravel release.",
+    "keywords": ["laravel", "helpers", "console"],
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/andrey-helldar/laravel-app/issues",
+        "source": "https://github.com/andrey-helldar/laravel-app"
+    },
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
+        },
+        {
+            "name": "Andrey Helldar",
+            "email": "helldar@ai-rus.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/console": "^6.0|^7.0|^8.0",
+        "illuminate/filesystem": "^6.0|^7.0|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "suggest": {
+        "laravel/helpers": "Provides backwards compatibility for helpers in the latest Laravel release."
+    },
+    "autoload": {
+        "psr-4": {
+            "Helldar\\LaravelApp\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Helldar\\LaravelApp\\ServiceProvider"
+            ]
+        }
+    }
+}
